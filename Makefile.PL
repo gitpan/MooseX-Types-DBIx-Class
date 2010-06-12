@@ -13,6 +13,7 @@ my %WriteMakefileArgs = (
   'AUTHOR' => 'Oliver Charles <oliver@ocharles.org.uk>',
   'BUILD_REQUIRES' => {
     'DBD::SQLite' => '0',
+    'SQL::Translator' => '0.11006',
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
@@ -26,7 +27,7 @@ my %WriteMakefileArgs = (
     'DBIx::Class' => '0',
     'MooseX::Types' => '0'
   },
-  'VERSION' => '0.01',
+  'VERSION' => '0.01002',
   'test' => {
     'TESTS' => 't/*.t'
   }

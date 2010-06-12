@@ -32,7 +32,7 @@ MooseX::Types::DBIx::Class - MooseX::Types for DBIx::Class objects
 
 =head1 VERSION
 
-version 0.01
+version 0.01002
 
 =head1 DESCRIPTION
 
