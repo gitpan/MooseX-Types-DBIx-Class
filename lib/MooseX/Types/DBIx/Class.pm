@@ -32,7 +32,7 @@ MooseX::Types::DBIx::Class - MooseX::Types for DBIx::Class objects
 
 =head1 VERSION
 
-version 0.01002
+version 0.02
 
 =head1 DESCRIPTION
 
@@ -73,7 +73,7 @@ it and be a good maintainer.
 
 =head1 AUTHOR
 
-  Oliver Charles <oliver@ocharles.org.uk>
+Oliver Charles <oliver@ocharles.org.uk>, Brian Phillips
 
 =head1 COPYRIGHT AND LICENSE
 
