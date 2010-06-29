@@ -1,4 +1,7 @@
 package MooseX::Types::DBIx::Class;
+BEGIN {
+  $MooseX::Types::DBIx::Class::VERSION = '0.04';
+}
 # ABSTRACT: MooseX::Types for DBIx::Class objects
 
 use strict;
@@ -67,7 +70,7 @@ MooseX::Types::DBIx::Class - MooseX::Types for DBIx::Class objects
 
 =head1 VERSION
 
-version 0.03
+version 0.04
 
 =head1 SYNOPSIS
 
