@@ -10,7 +10,7 @@ use ExtUtils::MakeMaker 6.31;
 
 my %WriteMakefileArgs = (
   'ABSTRACT' => 'MooseX::Types for DBIx::Class objects',
-  'AUTHOR' => 'Oliver Charles <oliver@ocharles.org.uk>, Brian Phillips',
+  'AUTHOR' => 'Oliver Charles <oliver@ocharles.org.uk>, Brian Phillips <bphillips@cpan.org>',
   'BUILD_REQUIRES' => {
     'DBD::SQLite' => '0',
     'SQL::Translator' => '0.11006',
@@ -28,7 +28,7 @@ my %WriteMakefileArgs = (
     'MooseX::Types' => '0',
     'MooseX::Types::Parameterizable' => '0'
   },
-  'VERSION' => '0.02',
+  'VERSION' => '0.03',
   'test' => {
     'TESTS' => 't/*.t'
   }

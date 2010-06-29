@@ -6,7 +6,6 @@ Makefile.PL
 README
 dist.ini
 lib/MooseX/Types/DBIx/Class.pm
-lib/MooseX/Types/DBIx/Class/Parameterizable.pm
 t/01_compile.t
 t/02_basic.t
 t/03_parameterized.t
