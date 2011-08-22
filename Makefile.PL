@@ -4,7 +4,7 @@ use warnings;
 
 
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
@@ -17,7 +17,7 @@ my %WriteMakefileArgs = (
     'Test::More' => '0'
   },
   'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+    'ExtUtils::MakeMaker' => '6.30'
   },
   'DISTNAME' => 'MooseX-Types-DBIx-Class',
   'EXE_FILES' => [],
@@ -26,9 +26,9 @@ my %WriteMakefileArgs = (
   'PREREQ_PM' => {
     'DBIx::Class' => '0',
     'MooseX::Types' => '0',
-    'MooseX::Types::Parameterizable' => '0'
+    'MooseX::Types::Parameterizable' => '0.07'
   },
-  'VERSION' => '0.04',
+  'VERSION' => '0.05',
   'test' => {
     'TESTS' => 't/*.t'
   }
